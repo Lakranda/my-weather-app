@@ -1,0 +1,50 @@
+#background {
+    background-color: rgb(164, 159, 169); /* Change the background color to silver */
+}
+#head {
+    background-color: silver; /* Silver background */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add some padding */
+    border-radius: 8px; /* Round the corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+#head h1 {
+    color: #333; /* Dark text color for contrast */
+    font-size: 2.5rem; /* Larger font size */
+    margin: 0; /* Remove default margin */
+    font-family: 'Arial', sans-serif; /* Use a clean font */
+}
+
+#nowWeather {
+    padding: 20px; /* Add padding to the group */
+    background-color: #6a6a6a; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#futureWeather{
+    color: rgb(153, 51, 51);
+}
+
+#C{
+    background-color: rebeccapurple;
+}
+
+body {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  #cards,body.light {
+    background-color: rgb(219, 215, 197);
+    color: rgb(18, 16, 16);
+  }
+  
+  body.dark {
+    background-color: rgb(40, 38, 38);
+    color: rgb(239, 235, 235);
+  }
+  #toggleButton {
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+  }
